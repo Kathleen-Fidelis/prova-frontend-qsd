@@ -64,10 +64,13 @@ input{
 
 .h1-cadastro-login{
     text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 .p-cadastro-login{
     text-align: center;
+    color: white;
 }
 
 @media (max-width: 330px){ 

@@ -46,5 +46,38 @@ inputRg.onblur = function() {
     }
 }
 
+// let inputNome = document.getElementById("nome")
 
+// inputNome.onblur = function() {
+//     let regexNome = /[A-Z][a-z].* [A-Z][a-z].*/;
+//     let msgNomeError = document.querySelector(".msg-nome.msg-error");
+//     let msgNomeOK = document.querySelector(".msg-nome.msg-success");
 
+//     if (regexNome.test(inputNome.value)) {
+//         msgNomeError.style.display = "none";
+//         msgNomeOK.style.display = "block";
+//     } else {
+//         msgNomeOK.style.display = "none";
+//         msgNomeError.style.display = "block";
+//     }
+// }
+
+let inputSenha = document.getElementById("senha")
+inputSenha.onclick = function() {
+    //     let msgSenhaErro = document.querySelector(".msg-senha-erro")
+    //     let msgSenhaOk = document.querySelector(".msg-senha-sucesso")
+    
+    //     if (senha.value.length < 8) {
+    //         msgSenhaErro.style.display = "none";
+    //         msgSenhaOk.style.display = "block";
+    //     } else {
+    //         msgSenhaOk.style.display = "none";
+    //         msgSenhaErro.style.display = "block";
+    //     }
+        
+        if (senha.value.length < 8){
+            console.log("senha inválida")
+        }else{
+            console.log("senha válida")
+        }
+    }

@@ -22,7 +22,9 @@
     color: white;
 }
 
-
+/* .conteudo{
+    margin: auto;
+} */
 
 
 
@@ -59,7 +61,7 @@
         display: none;
     }
 
-    .forms{
-        display: block;
+    .custom-btn{
+        width: 100%;
     }
 }

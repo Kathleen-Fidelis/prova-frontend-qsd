@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="d-flex">
+      <!-- <div class="conteudo"> -->
         <div class="col-6 login-cadastro">
             <h1 class="h1-cadastro">Já possui <br> cadastro?</h1>
 
@@ -17,20 +18,20 @@
 
             <a href="../login/index.html"><button type="button" class="btn btn-outline-secondary btn-login">Faça seu login</button></a>
         </div>
-
+      <!-- </div> -->
 
 
         <div class="col-6 forms">
             <h2 class="h2-forms mt-3">Criar uma conta</h2>
 
             <div class="redes-sociais d-flex">
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/" target="_blank">
                     <img src="./images/facebook.png" alt="Facebook" class="img-redes-sociais">
                 </a>
-                <a href="https://twitter.com/">
+                <a href="https://twitter.com/" target="_blank">
                     <img src="./images/twitter.png" alt="Twitter" class="img-redes-sociais">
                 </a>
-                <a href="https://br.linkedin.com/">
+                <a href="https://br.linkedin.com/" target="_blank">
                     <img src="./images/linkedin.png" alt="LinkedIn" class="img-redes-sociais">
                 </a>
             </div>
@@ -40,7 +41,9 @@
             </div>
 
             <div class="mb-3 forms">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+                <span class="msg-nome  msg-error invalid-feedback" style="display: none;">nome inválido</span>
+                <span class="msg-nome  msg-success valid-feedback" style="display: none;">ok</span>
               </div>
               <div class="mb-3">
                 <input type="email" class="form-control" id="exampleFormControlInput2" required placeholder="E-mail">
@@ -69,7 +72,7 @@
                 <span class="msg-rg  msg-success valid-feedback" style="display: none;">ok</span>
               </div>
               <div class="mb-3">
-                <input type="password" class="form-control" id="exampleFormControlInput8" placeholder="Senha">
+                <input type="password" class="form-control" id="id" placeholder="Senha">
               </div>
               <div class="mb-3">
                 <input type="password" class="form-control" id="exampleFormControlInput9" placeholder="Confirmar Senha">
