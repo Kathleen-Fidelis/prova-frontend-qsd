@@ -1,0 +1,65 @@
+.login-cadastro{
+    background-color: coral;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h1-cadastro{
+    color: white;
+    font-weight: bold;
+}
+
+.p-cadastro{
+    color: white;
+}
+
+.btn-login{
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 60px 60px 60px 60px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+.h2-forms{
+    text-align: center;
+    font-weight: bold;
+}
+
+.redes-sociais{
+    justify-content: center;
+}
+
+.img-redes-sociais{
+    margin: 10px;
+}
+
+.p-forms{
+    text-align: center;
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.custom-btn{
+    text-transform: uppercase;
+    border-radius: 60px 60px 60px 60px;
+    justify-content: center;
+    width: 40%;
+}
+
+
+@media (max-width: 330px){ 
+    .login-cadastro{
+        display: none;
+    }
+
+    .forms{
+        display: block;
+    }
+}
