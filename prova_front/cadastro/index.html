@@ -15,7 +15,7 @@
 
             <p class="p-cadastro">Faça seu login clicando abaixo</p>
 
-            <button type="button" class="btn btn-outline-secondary btn-login">Faça seu login</button>
+            <a href="../login/index.html"><button type="button" class="btn btn-outline-secondary btn-login">Faça seu login</button></a>
         </div>
 
 
@@ -24,9 +24,15 @@
             <h2 class="h2-forms mt-3">Criar uma conta</h2>
 
             <div class="redes-sociais d-flex">
-                <img src="./images/facebook.png" alt="Facebook" class="img-redes-sociais">
-                <img src="./images/twitter.png" alt="Twitter" class="img-redes-sociais">
-                <img src="./images/linkedin.png" alt="LinkedIn" class="img-redes-sociais">
+                <a href="https://www.facebook.com/">
+                    <img src="./images/facebook.png" alt="Facebook" class="img-redes-sociais">
+                </a>
+                <a href="https://twitter.com/">
+                    <img src="./images/twitter.png" alt="Twitter" class="img-redes-sociais">
+                </a>
+                <a href="https://br.linkedin.com/">
+                    <img src="./images/linkedin.png" alt="LinkedIn" class="img-redes-sociais">
+                </a>
             </div>
 
             <div class="p-forms">
@@ -37,13 +43,17 @@
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
               </div>
               <div class="mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="E-mail">
+                <input type="email" class="form-control" id="exampleFormControlInput2" required placeholder="E-mail">
               </div>
               <div class="mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="CPF">
+                <input type="text" class="form-control" id="cpf" placeholder="CPF">
+                <span class="msg-cpf  msg-error invalid-feedback" style="display: none;">CPF inválido</span>
+                <span class="msg-cpf  msg-success valid-feedback" style="display: none;">ok</span>
               </div>
               <div class="mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="CEP">
+                <input type="text" class="form-control" id="cep" placeholder="CEP">
+                <span class="msg-cep  msg-error invalid-feedback" style="display: none;">CEP inválido</span>
+                <span class="msg-cep  msg-success valid-feedback" style="display: none;">ok</span>
               </div>
               <div class="d-flex">
                 <div class="mb-3 col-10">
@@ -54,7 +64,9 @@
                 </div>
               </div>
               <div class="mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput7" placeholder="RG">
+                <input type="text" class="form-control" id="rg" placeholder="RG">
+                <span class="msg-rg  msg-error invalid-feedback" style="display: none;">RG inválido</span>
+                <span class="msg-rg  msg-success valid-feedback" style="display: none;">ok</span>
               </div>
               <div class="mb-3">
                 <input type="password" class="form-control" id="exampleFormControlInput8" placeholder="Senha">
@@ -63,13 +75,13 @@
                 <input type="password" class="form-control" id="exampleFormControlInput9" placeholder="Confirmar Senha">
               </div>
               <div class="d-flex">
-                <button type="button" class="btn btn-danger custom-btn">Cadastrar</button>
+                <button type="submit" class="btn btn-danger custom-btn">Cadastrar</button>
               </div>
         </div>
     </div>
     
 
 
-    <script src="./js/app.js"></script>
+    <script src="../cadastro/js/app.js"></script>
 </body>
 </html>
